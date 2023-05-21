@@ -1,0 +1,24 @@
+http://localhost:8081/person/save?name=ali&family=akbari
+
+http://localhost:8081/person/findAll
+http://localhost:8081/person/find?search=ali 
+http://localhost:8081/person/find?search=181
+http://localhost:8081/person/findOneById?id=181
+
+http://localhost:8081/film/save?title=181&from=10&to=12&count=100
+http://localhost:8081/film/save?title=Sokote%20Bareha&from=10&to=12&count=100
+http://localhost:8081/film/save?title=SAW&from=10&to=12&count=1
+
+http://localhost:8081/film/findAll
+http://localhost:8081/film/findOneById?id=183
+http://localhost:8081/film/findFromTo?from=10&to=12
+http://localhost:8081/film/findTitle?title=Sokote Bareha
+
+
+
+http://localhost:8081/cinema/findAll
+http://localhost:8081/cinema/findOneById?id=1
+http://localhost:8081/cinema/buy?personId=181&filmId=183
+http://localhost:8081/cinema/reservedFromTo?from=10&to=12
+
+http://localhost:8081/cinema/buy?personId=181&filmId=186
